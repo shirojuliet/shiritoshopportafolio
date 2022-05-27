@@ -1,0 +1,216 @@
+<!doctype html>
+<html lang="em">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Shiritoshop</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/skeleton.css">
+    <link rel="stylesheet" href="css/style.css">
+
+    <style>
+        img {
+            border-radius: 8px;
+        }
+
+        h2 {
+            text-align: center;
+        }
+    </style>
+
+
+</head>
+
+<body>
+
+    <header class="header">
+        <div class="container"></div>
+        <div class="row"></div>
+
+        <div class="four columns">
+            <h1><img src="imagen/shiritoshop.jpg" alt="" width="50rem">Shiritoshop</h1>
+        </div>
+
+        <div class="two columns u-pull-right">
+
+            <ul>
+                <li class="submenu">
+                    <img src="imagen/carrito.png" alt="">
+                    <div id="carrito">
+                        <p class="vacio">Carrito vacio</p>
+                        <table class="u-full-width">
+
+                            <thead>
+                                <tr>
+                                    <th>Imagen</th>
+                                    <th>Modelo</th>
+                                    <th>Hits</th>
+                                    <th>Precio</th>
+                                </tr>
+                            </thead>
+
+                            <tbody>
+                                <tr>
+                                    <td>
+                                        <img src="imagen/gt1.jpg" width="100">
+                                    </td>
+                                    <td>Maskking GT</td>
+                                    <td>500 hits</td>
+                                    <td>$60</td>
+                                    <td><a href="#" class="borrar-modelo">X</a></td>
+                                </tr>
+
+                                <tr>
+                                    <td>
+                                        <img src="imagen/highpro1.jpg" width="100">
+                                    </td>
+                                    <td>Maskking High Pro</td>
+                                    <td>1000 hits</td>
+                                    <td>$80</td>
+                                    <td><a href="#" class="borrar-modelo">X</a></td>
+                                </tr>
+
+                                <tr>
+                                    <td>
+                                        <img src="imagen/promax1.jpg" width="100">
+                                    </td>
+                                    <td>Maskking Pro Max</td>
+                                    <td>1500 hits</td>
+                                    <td>$100</td>
+                                    <td><a href="#" class="borrar-modelo">X</a></td>
+                                </tr>
+
+                                <tr>
+                                    <td>
+                                        <img src="imagen/gts1.jpg" width="100">
+                                    </td>
+                                    <td>Maskking GTS</td>
+                                    <td>2500 hits</td>
+                                    <td>$115</td>
+                                    <td><a href="#" class="borrar-modelo">X</a></td>
+                                </tr>
+
+                                <tr>
+                                    <td>
+                                        <img src="imagen/BOX2.webp" width="100">
+                                    </td>
+                                    <td>Maskking BOX ORIGINAL</td>
+                                    <td>3500 hits</td>
+                                    <td>$310</td>
+                                    <td><a href="#" class="borrar-modelo">X</a></td>
+                                </tr>
+
+                            </tbody>
+
+                        </table>
+                        <a href="#" class="button u-full-width">vaciar carrito</a>
+                    </div>
+                </li>
+            </ul>
+
+        </div>
+
+    </header>
+
+    <div class="hero">
+        <div class="container">
+            <div class="row">
+                <div class="six columns">
+                    <div class="contenido-hero">
+                        <h2>Con variedad de sabores y Modelos</h2>
+                        <p>¡¡Con los mejores precios!!</p>
+                        <form>
+                            <input class="u-full-width" type="text" placeholder="¿Que modelo y sabor Buscas?"
+                                id="buscador">
+                            <input type="submit" class="submit-buscador">
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="barra">
+        <div class="container">
+            <div class="row">
+    
+                <div class="four columns icono icono1">
+                    <p>6 modelos diferentes<br>
+                        explorar los modelos</p>
+    
+                        </div>
+    
+                        <div class="four columns icono icono2">
+                            <p>Conoce los nuevos sabores<br>
+                                de cada modelo</p>
+                        </div>
+    
+                        <div class="four columns icono icono3">
+                            <p>modelos originales<br>
+                                </p>
+                        </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="lista-platillos" class="container">
+        <h1 class="encabezado">Pedidos en linea</h1>
+        <div class="row">
+
+        <div class="four columns">
+            <div class="card">
+                <img src="imagen/gt1.jpg" width="50%">
+                <div class="info-card">
+                    <h4>Maskking GT, Mayoero y Menudeo</h4>
+                    <p>500 HITS</p>
+                    <img src="imagen/estrellas.png">
+                    <p class="precio">$60 <span class="u-pull-right"></span></p>
+                    <a href="#" class="u-full-widt button-prymary button input agregar-carrito" data-id="1">Agregar al carrito</a>
+                </div>
+            </div>
+        </div>
+        </div>
+    </div>
+
+    <div class="four columns">
+            <div class="card">
+                <img src="imagen/highpro1.jpg" width="50%">
+                <div class="info-card">
+                    <h4>Maskking High Pro, Mayoero y Menudeo</h4>
+                    <p>1000 HITS</p>
+                    <img src="imagen/estrellas.png">
+                    <p class="precio">$80 <span class="u-pull-right"></span></p>
+                    <a href="#" class="u-full-widt button-prymary button input agregar-carrito" data-id="1">Agregar al carrito</a>
+                </div>
+            </div>
+        </div>
+
+        <footer class="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="four colums">
+                        <nav class="menu">
+                            <a class="enlace" href="#">Pedidos en linea</a>
+                            <a class="enlace" href="#">Pedidos para envio</a>
+                            <a class="enlace" href="#">Pedidos por telefono</a>
+                            </nav>
+                    </div>
+                    <div class="four columns">
+                        <nav class="menu">
+                            <a class="enlace" href="#">ubicacion</a>
+                            <a class="enlace" href="#">telefono</a>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        
+     
+
+
+</body>
+
+</html>
